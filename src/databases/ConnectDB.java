@@ -26,6 +26,9 @@ public class ConnectDB {
     public static PreparedStatement ps = null;
     public static ResultSet resultSet = null;
 
+    public static void insertDataFromArrayToDB(int[] num, String insertion_sort, String sortingNumbers) {
+    }
+
     public Properties loadProperties() throws IOException{
         Properties prop = new Properties();
         InputStream ism = new FileInputStream("src/secret.properties");
