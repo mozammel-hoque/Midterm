@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9771989b-51b3-4e7c-b47c-ddb973a42c7b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/DataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +131,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseMap">
+  <component name="RunManager" selected="Application.UseQueue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
@@ -257,10 +254,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UseMap" />
         <item itemvalue="Application.UseQueue" />
-        <item itemvalue="Application.DataReader" />
+        <item itemvalue="Application.UseMap" />
         <item itemvalue="Application.UseArrayList" />
+        <item itemvalue="Application.DataReader" />
         <item itemvalue="Application.ConnectDB" />
       </list>
     </recent_temporary>
