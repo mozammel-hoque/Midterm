@@ -14,7 +14,24 @@ public class FindMissingNumber {
 
 
         //implementation here...
+        int[] array = new int[]{10, 2, 1, 4, 5, 3, 7, 8, 6};
+        int n = 10;
+        System.out.println("Missing index number in the given array is: " + FindMissingNumber.missingNumber(array, n));
 
     }
 
+    public static int missingNumber(int[] array, int n) {
+
+        int total = 0;
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum += i;
+        }
+
+        for (int i = 0; i < array.length; i++) {
+            total += i;
+
+        }
+        return sum - total;
+    }
 }
