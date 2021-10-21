@@ -1,84 +1,134 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A. Data Structures are necessary for designing efficient algorithms.
+It provides re-usability and abstraction .
 
 What are the various operations that can be performed on different Data Structures?
-A.
+A.Searching, sorting, insertion, deletion, merging and Traversing
 
 List out the areas in which data structures are applied extensively?
-A.
+A. 1. Compiler Design,
+   2. Operating System,
+   3. Database Management System,
+   4. Statistical analysis package,
+   5. Numerical Analysis,
+   6. Graphics,
+   7. Artificial Intelligence,
+   8. Simulation
 
 what is an Array?
-A.
+A. An array is a collection of items stored at contiguous memory locations.
 
 what is the difference between the Array and ArrayList?
-A.
+A.Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
+We cannot change length of array once created in Java but ArrayList can be changed.
 
 what is LinkedList?
-A.
+A.linked lists are saves as nodes. nodes have 2 sides address. it's a linear data structure.
 
 How is an Array different from Linked List?
-A.
+A.An array is a collection of elements of a similar data type.
+A linked list is a collection of objects known as a node where node consists of two parts,
+i.e., data and address. Array elements store in a contiguous memory location.
+Linked list elements can be stored anywhere in the memory or randomly stored.
 
 what is queue?
-A.
+A.It is a linear data structure where elements can be accessed  ob the basis of FIFO.
 
 what is stack?
 A.
+Stack is linear data structure where elements can be accessed on the basis of LIFO.
 
 what is FIFO and LIFO?
-A.
+A. First In First Out, Last In Last Out.
 
 what is the order of complexity?
-A.
+A.For input is of size N, we can say that the algorithm will finish at O(1), O(N), O(N^2), O(N^3), O(N*log(N)) etc.
 
 what is the best case to search an element from an array?
-A.
+A. Finding the first element.
 
 what is the worst case to search an element from an array?
-A.
+A.when the element is in the middle
 
 what is tree in data structure?
-A.
+A.A tree is a nonlinear data structure, compared to arrays,
+linked lists, stacks and queues which are linear data structures
 
 what is graph in data structure?
-A.
+A. A Graph is a non-linear data structure consisting of nodes and edges.
 
 what is the difference between the HashTable and HashMap?
-A.
+A. the main difference between them is that HashMap is not thread-safe but Hashtable is thread-safe.
+Another difference is HashMap allows one null key and null values but Hashtable doesn't allow null key or values.
 
 What are the major data structures used in the following areas
-A.
+A.RDBMS Array, Network data model Graph, Hierarchical data model Trees.
 
 How HashMap works in java?
-A.
+A.its a collection of key and value,  elements are stored against a key.
 
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
-A.
+A.It is a class in Java API, which extends IndexOutOfBoundException. IndexOutOfBoundsException occur when an array has
+  been accessed with an illegal index. Index either negative or greater than or equal to the size of the array.
+
 
 What are the different ways of copying an array into another array?
-A.
+A.There are mainly four different ways to copy all elements of one
+  array into another array in Java.
+  1. Manually, 2. Arrays.copyOf() 3. System.arraycopy() 4. Object.clone()
 
 What is difference between an array and a linked list?
-A.
+A.An array is a collection of elements of a similar data type.
+A linked list is a collection of objects known as a node where node consists of two parts.
 
 What is DFS and BFS?
-A.
+A.Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structure
+  This one starts at the root and explores as far as possible along each branch before backtracking.
+  Breath-first search (BFS) is an algorithm for traversing or searching tree or graph data structure.
+  It starts at the tree roots and explores the neighbour nodes first before visiting to the next level of neighbours.
 
 What is Recursion?
-A.
+A.method call itself.
 
 What are linear and non linear data Structures?
-A.
+A.Linear data structure: 1. Array, 2. Stack, 3. Queue, 4. LinkedList
+  Non-Linear data structure: 1. Trees 2. Graphs
 
 What is Big-(O)-notation?
-A.
+A.Big O notations is describes the performance or complexity of an algorithm.
 
 Outlined different kind of sorting algorithm with time complexity?
-A.
+A. Bubble sort: It is a comparison algorithm. It works by repeatedly stepping through the list to be sorted, comparing
+  each pair of adjacent items and swapping them if they are in the wrong order. The pass through the list is repeated
+  until no swaps are needed, which indicates that the list is sorted. Worst case performance: O(n2) Best case performance:
+  O(n) Average case performance: O(n2) Worst case space complexity: O(n) total, O(1) auxiliary Bubble sort is not a
+  practical sorting algorithm when n is large.
+
+  2.Selection sort: It is an in-place comparison sort.Selection sort is noted for its simplicity, and also has performance
+  advantages over more complicated algorithms in certain situations. Worst case performance: O(n2) Best case performance:
+  O(n2) Average case performance: O(n2) Worst case space complexity: O(n) total, O(1) auxiliary
+
+  3.Insertion sort: It is a comparison sort in which the sorted array (or list) is built one entry at a time. It is much
+  less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. Worst case
+  performance: O(n2) Best case performance: O(n) Average case performance: O(n2) Worst case space complexity: O(n) total,
+  O(1) auxiliary
+
+  4. Merge sort: It is an O(n log n) comparison-based sorting algorithm. Worst case performance: O(n log n) Best case
+  performance: O(n log n) typical Average case performance: O(n log n) Worst case space complexity: O(n) total, O(n)
+  auxiliary
+
+  5.Quick sort: It is similar to merge sort in many ways. It divides the elements to be sorted into two groups, sorts
+  the two groups by recursive calls, and combines the two sorted groups into a single array of sorted values. The choice
+  of a good pivot element is critical to the efficiency of the quicksort algorithm. If we can ensure that the pivot
+  element is near the median of the array values, then quicksort is very efficient. on average, makes O(n log n)
+  comparisons to sort n items, in the worst case, it makes O(n2) comparisons
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
-A.
+A. a)In terms of Accessing element.
+    b)In terms of Inserting element.
+    c)In terms of Searching element.
+    d)In terms of Removing element.
 
 

@@ -303,4 +303,6 @@ public class ConnectDB {
 
     }
 
+    public void connectToMongoDB(String employee, String employee_name, String employeeID) {
+    }
 }
