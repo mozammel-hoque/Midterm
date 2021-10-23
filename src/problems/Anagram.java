@@ -1,5 +1,7 @@
 package problems;
 
+import java.util.Arrays;
+
 /**
  * Created by mrahman on 04/22/17.
  */
@@ -16,13 +18,31 @@ public class Anagram {
 
         //implementation here...
 
+        String a = "MARY";
+        String b = "ARMY";
+        boolean i = Anagram.isAnagram(a,b);
+
+        if (i){
+            System.out.println("\""+a+"\" and \""+b+"\" is Anagram.");
+        }else{System.out.println(a+" and "+b+" is not Anagram.");}
 
     }
-    private static boolean isAnagram(String word, String anagram){
+    static boolean isAnagram(String str1, String str2){
 
         //implementation here...
+        if (str1.length() != str2.length()) {
+            return false;
+        }
+        str1 = str1.toUpperCase();
+        str2 = str2.toUpperCase();
+        char[] str1c = str1.toCharArray();
+        Arrays.sort(str1c);
+        char[] str2c = str2.toCharArray();
+        Arrays.sort(str2c);
+
+        return Arrays.equals(str1c, str2c);
 
 
-        return anagram.isEmpty();
+
     }
 }

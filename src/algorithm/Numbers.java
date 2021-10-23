@@ -44,7 +44,7 @@ public class Numbers {
 		long insertionSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
 
-		connectDB.insertDataFromArrayToDB(num, "insertion_sort", "SortingNumbers");
+		connectDB.insertToMongoDB("num", "insertion_sort", "SortingNumbers");
 		System.out.println("Data showing form database :");
 		List<String> numbersi = connectDB.readDataBase("insertion_sort", "SortingNumbers");
 		printValue(numbersi);
@@ -57,7 +57,7 @@ public class Numbers {
 		long bubbleSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Bubble Sort take: " + bubbleSortExecutionTime + " milli sec");
 
-		connectDB.insertDataFromArrayToDB(num, "bubble_sort", "SortingNumbers");
+		connectDB.insertToMongoDB("num", "bubble_sort", "SortingNumbers");
 		System.out.println("Data showing form database :");
 		List<String> numbersb = connectDB.readDataBase("bubble_sort", "SortingNumbers");
 		printValue(numbersb);
@@ -70,7 +70,7 @@ public class Numbers {
 		long mergSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Merge Sort take: " + mergSortExecutionTime + " milli sec");
 
-		connectDB.insertDataFromArrayToDB(num, "merge_sort", "SortingNumbers");
+		connectDB.insertToMongoDB("num", "merge_sort", "SortingNumbers");
 		System.out.println("Data showing form database :");
 		List<String> numbersm = connectDB.readDataBase("merge_sort", "SortingNumbers");
 		printValue(numbersm);
@@ -83,7 +83,7 @@ public class Numbers {
 		long quickSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Quick Sort take: " + quickSortExecutionTime + " milli sec");
 
-		connectDB.insertDataFromArrayToDB(num, "quick_sort", "SortingNumbers");
+		connectDB.insertToMongoDB("num", "quick_sort", "SortingNumbers");
 		System.out.println("Data showing form database :");
 		List<String> numbersq = connectDB.readDataBase("quick_sort", "SortingNumbers");
 		printValue(numbersq);
@@ -96,7 +96,7 @@ public class Numbers {
 		long heapSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Heap Sort take: " + heapSortExecutionTime + " milli sec");
 
-		connectDB.insertDataFromArrayToDB(num, "heap_sort", "SortingNumbers");
+		connectDB.insertToMongoDB("num", "heap_sort", "SortingNumbers");
 		System.out.println("Data showing form database :");
 		List<String> numbersh = connectDB.readDataBase("heap_sort", "SortingNumbers");
 		printValue(numbersh);
@@ -109,7 +109,7 @@ public class Numbers {
 		long bucketSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " Numbers in Bucket Sort take: " + bucketSortExecutionTime + " milli sec");
 
-		connectDB.insertDataFromArrayToDB(num, "bucket_sort", "SortingNumbers");
+		connectDB.insertToMongoDB("num", "bucket_sort", "SortingNumbers");
 		System.out.println("Data showing form database :");
 		List<String> numbersck = connectDB.readDataBase("bucket_sort", "SortingNumbers");
 		printValue(numbersck);
@@ -122,7 +122,7 @@ public class Numbers {
 		long shellSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " Numbers in Shell Sort take: " + shellSortExecutionTime + " milli sec");
 
-		connectDB.insertDataFromArrayToDB(num, "shell_sort", "SortingNumbers");
+		connectDB.insertToMongoDB("num", "shell_sort", "SortingNumbers");
 		System.out.println("Data showing form database :");
 		List<String> numbersl = connectDB.readDataBase("shell_sort", "SortingNumbers");
 		printValue(numbersl);
